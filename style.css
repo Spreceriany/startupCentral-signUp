@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+  display: -ms-grid;
+  display: grid;
+  place-content: center;
+  height: 100vh;
+  max-width: 100%;
+}
+
+.container {
+  background-color: #22313D;
+  max-width: 100%;
+  width: 40em;
+  padding: 2em;
+  text-align: center;
+}
+
+.container button {
+  padding: 1em;
+  border-radius: 0;
+  display: inline-block;
+  -webkit-transition: background-color 0.2s ease;
+  transition: background-color 0.2s ease;
+  border: none;
+  color: white;
+  cursor: pointer;
+  background-color: gray;
+}
+
+.container .active {
+  background-color: #0fc094;
+}
+
+.container .form-btn:hover {
+  background-color: #0c9976;
+}
+
+.container form {
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  text-align: right;
+}
+
+.container input {
+  padding: .5em;
+  margin-bottom: 2em;
+  background-color: #22313D;
+  color: white;
+  border: 1px solid gray;
+}
+
+.container .row {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+}
+
+.container .row.row-inline {
+  gap: 1em;
+}
+
+.container p {
+  color: white;
+  font-size: 2rem;
+  margin: .7em 0 .5em 0;
+}
+
+.container .get-started {
+  background-color: #0B9D78;
+  border: none;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: .1em;
+  font-weight: bold;
+  font-size: 1.5rem;
+  -webkit-transition: background-color 0.2s ease;
+  transition: background-color 0.2s ease;
+}
+
+.container .get-started:hover {
+  background-color: #096d54;
+}
+
+.container a {
+  text-decoration: none;
+  font-size: 1rem;
+  color: white;
+  margin-bottom: 1em;
+}
+
+.container .visible {
+  display: block;
+}
+
+.container .invisible {
+  display: none;
+  opacity: 0;
+}
+/*# sourceMappingURL=style.css.map */
